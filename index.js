@@ -79,7 +79,7 @@ function addPortletReference(folder, fullFileName,filename){
   currentScreenFile = path.join(sassFolder,"screen.scss"),
   backupFolder = path.join(sassFolder,"screen_backups"),
   newScreenFile = path.join(backupFolder,"screen_before_"+filename+".scss"),
-  commentToAddAfter = "//node";
+  commentToAddAfter = "//node added ["+folder+"] EOF";
 
   //backup the current screen.js
   fs.ensureDir(backupFolder,function(err){
