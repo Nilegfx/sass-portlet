@@ -1,0 +1,29 @@
+{
+  "name": "sass-portlet",
+  "version": "1.0.0",
+  "description": "simplify modular css architecture by creating sass modules and reference it easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nilegfx/sass-portlet.git"
+  },
+  "keywords": [
+    "sass",
+    "smacss",
+    "modular"
+  ],
+  "author": "Ahmed Ayoub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilegfx/sass-portlet/issues"
+  },
+  "homepage": "https://github.com/Nilegfx/sass-portlet",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "fs-extra": "^0.14.0",
+    "open": "0.0.5"
+  }
+}
