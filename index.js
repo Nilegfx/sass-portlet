@@ -10,7 +10,7 @@ var rli = readline.createInterface({
             output: process.stdout
           });
 
-var projectFolder = __dirname,
+var projectFolder = path.join(__dirname,"..",".."),
     sassFolder = path.join(projectFolder, "css","sass"),
     sassAssetsName = "_",
     sassAssetsFolder = path.join(sassFolder,sassAssetsName);

@@ -1,6 +1,6 @@
 {
   "name": "sass-portlet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simplify modular css architecture by creating sass modules and reference it easily",
   "main": "index.js",
   "scripts": {
